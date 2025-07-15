@@ -1,18 +1,16 @@
-# Ignore everything
-*
-
-# Except this
-!.gitignore
-!src/
-!src/Main.java
-
-# Ignore build, IDE and system files
+# IntelliJ project files
 .idea/
 *.iml
-/out/
-build/
-target/
-bin/
+
+# Build output
+out/
 *.class
+
+# OS-specific files
 .DS_Store
 Thumbs.db
+
+# Ignore any extra .gitignore inside folders (optional)
+src/**/.gitignore
+package-lock.json
+
